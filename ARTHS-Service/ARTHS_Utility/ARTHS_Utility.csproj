@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Helpers\Fonts\verdana-bold.ttf" />
+    <None Remove="Helpers\Fonts\verdana.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Helpers\Fonts\verdana-bold.ttf" />
+    <EmbeddedResource Include="Helpers\Fonts\verdana.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.6.0" />
+    <PackageReference Include="PDFsharp" Version="1.50.5147" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\CloudStorage\" />
+  </ItemGroup>
+
+</Project>

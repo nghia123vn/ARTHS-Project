@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935863172768",
+    "project_id": "arths-45678",
+    "storage_bucket": "arths-45678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935863172768:android:e9391d3648f38ec55fd3c5",
+        "android_client_info": {
+          "package_name": "com.staffapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWxyfOkQywBakSMND108ILfhIZFi61Iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
